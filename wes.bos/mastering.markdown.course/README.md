@@ -1,5 +1,9 @@
 # Things I Learned
 
+## The Resource
+
+[Mastering Markdown](https://courses.wesbos.com/account/access/5cb8a4a685f96c03c1e40552)
+
 ## Links in MD
 
 ``` markdown
@@ -23,11 +27,31 @@
 
 ## Lists
 
-``` markdown
+Nothing I didn't already know.
 
-- ![alt text](link to image "you can add tooltip text here too")
-- ![alt text][token]  put token downstairs like with links
-- [![alt text](some thumbnail url)](the link to the big image) 
-  lets you do a clickable thumbnail to larger image
+## Line Breaks, Horizontal Rules, & BlockQuotes
+
+Nothing I didn't already know.
+
+## Code Blocks
+
+```markdown
+
+- ``` by itself works, or with a language name
+- you can do inline code with `backticks`
+- ```diff, then add either - or + in front of lines
 
 ```
+
+```diff
++ var x;
+- var y;
+```
+
+## Tables
+
+Nothing I didn't already know.
+
+## Github Treats
+
+Nothing I didn't already know.
