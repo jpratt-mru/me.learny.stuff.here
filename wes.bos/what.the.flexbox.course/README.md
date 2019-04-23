@@ -2,7 +2,7 @@
 
 ## The Resource
 
-[Mastering Markdown](https://courses.wesbos.com/account/access/5cb8a4a685f96c03c1e40552)
+[What the FlexBox](https://courses.wesbos.com/account/access/5cb8a1ce85f96c03c1e40545)
 
 ## Links in MD
 
