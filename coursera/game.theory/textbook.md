@@ -1,0 +1,1 @@
+[Essentials of game theory a concise, multidisciplinary introduction](https://librarysearch.mtroyal.ca/discovery/fulldisplay?docid=alma9923077814604656&context=L&vid=01MTROYAL_INST:02MTROYAL_INST&search_scope=All&tab=Everything&lang=en)
