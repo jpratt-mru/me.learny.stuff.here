@@ -29,3 +29,32 @@
   - so if you have a default of **order: 1** and then give somebody a **order: 2**, it will appear after the other sibs
 - default is 0
 - yes, negatives are possible and behave as expected
+
+## 06: Flexbox alignment
+
+- `justify-content`
+  - `flex-end`, `flex-start`, `center`, `space-evenly`, `space-around`
+- you can do vertical centering with flexbox
+  - change **justify-content: center**
+  - change **flex-direction: column**
+
+## 07: Alignment and centering with align-items
+
+- `align-items` aligns across the **cross axis!!!**
+- default is `stretch`, so content fills the container
+- `baseline` aligns the bottom of the TEXT in the flex items
+
+## 08: Alignment and centering with align-content
+
+- like `justify-content`, it takes extra space and divvies it up...but this time along the **cross axis**
+- need `flex-wrap: wrap` to work correctly!!
+
+## 09: Alignment and centering with align-self
+
+- `align-self: blah` aligns just a **flex-item**
+
+## 10: Understanding Flexbox sizing with the flex property
+
+- `flex: n` = "give a proportional amount of space to a **flex item**
+  - so a flex: 2 gets twice as much space as a flex: 1
+- **[GOTCHA]** when I was doing this in the Chrome inspector, it wasn't working...but that was because (I think) the precedence rules for later rules wasn't coming into effect - once I made the changes in the actual css file, everything worked as expected

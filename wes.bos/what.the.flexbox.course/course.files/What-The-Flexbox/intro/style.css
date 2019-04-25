@@ -246,16 +246,5 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-}
 
-.box {
-  flex: 1;
-}
-
-.box3 {
-  order: 1;
-}
-
-.box2 {
-  order: 2;
 }
