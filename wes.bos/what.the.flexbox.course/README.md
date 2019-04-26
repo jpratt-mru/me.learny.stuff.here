@@ -58,3 +58,21 @@
 - `flex: n` = "give a proportional amount of space to a **flex item**
   - so a flex: 2 gets twice as much space as a flex: 1
 - **[GOTCHA]** when I was doing this in the Chrome inspector, it wasn't working...but that was because (I think) the precedence rules for later rules wasn't coming into effect - once I made the changes in the actual css file, everything worked as expected
+
+## 11: flex-grow, flex-shrink, and flex-basis
+
+- `flex-basis: (some units)` means "use this as your standard size
+- `flex-grow: n` (n defaults to 0) means "if there is extra space left over, here is your portion of it
+- `flex-shrink: n` (n defaults to 1) means "if there isn't enough room for everyone's basis, how much to slim yourself proportionally to others" - so a bigger number means more slimming
+- shorthand form: `flex <grow> <shrink> <basis>`
+
+## 12: How Flexbox's flex-basis and wrapping work together
+
+- if you turn **wrap** on, then any use of **flex-grow** only affects **that row**
+
+## 13: Cross-browser Flexbox support and Autoprefixer
+
+- not sure how useful this is now...according to [mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox), browser support is excellent now
+
+## 14: Pure Flexbox navigation code-along
+
